@@ -1,0 +1,25 @@
+main {
+    background-color: var(--color-background);
+    background-image: url('images/construction.jpeg');
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position:center;
+    height:80vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content{
+    letter-spacing: 0.2rem;
+}
+
+main .content h1{
+    font-weight: lighter;
+    z-index: 44;
+}
+
+main .content img{
+    aspect-ratio: 16/9;
+    mix-blend-mode: multiply;
+}
